@@ -1,0 +1,35 @@
+{
+    "name": "vite-project",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@ant-design/icons-vue": "^6.0.1",
+        "@vue/composition-api": "^1.4.2",
+        "ant-design-vue": "^2.2.8",
+        "axios": "^0.24.0",
+        "cropper": "^4.1.0",
+        "less": "^4.1.2",
+        "less-loader": "^10.2.0",
+        "mavon-editor": "^3.0.0-beta",
+        "monent": "^0.0.2-security",
+        "nprogress": "^0.2.0",
+        "qs": "^6.10.2",
+        "vite-plugin-components": "^0.13.3",
+        "vue": "^3.2.25",
+        "vue-axios": "^2.1.5",
+        "vue-router": "^4.0.0-beta.13"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.10",
+        "@types/nprogress": "^0.2.0",
+        "@types/qs": "^6.9.7",
+        "@vitejs/plugin-vue": "^2.0.0",
+        "typescript": "^4.4.4",
+        "vite": "^2.7.2",
+        "vue-tsc": "^0.29.8"
+    }
+}
