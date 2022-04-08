@@ -8,7 +8,9 @@ const fileApi = require('./server/api/fileApi')
 
 //资源定位
 var app = express();
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'),{
+  lastModified: true
+}));
 
 //端口设置
 var port = '3000'
